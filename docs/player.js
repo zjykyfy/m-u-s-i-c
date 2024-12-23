@@ -1,4 +1,4 @@
-let media="https://gcore.jsdelivr.net/gh/zjykfy/music@main/media/"
+let media="https://gcore.jsdelivr.net/gh/zjykyfy/music@main/media/"
 
 // Cache references to DOM elements.
 let elms = ['track','artist', 'timer', 'duration','post', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'postBtn', 'waveBtn', 'volumeBtn', 'progress', 'progressBar','waveCanvas', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
@@ -9,7 +9,7 @@ elms.forEach(function(elm) {
 let player;
 let playNum=0;
 let requestJson="memp.json"
-// let requestJson="https://music.yangfeiyue.us.kg/memp.json"
+// let requestJson="https://music.yangjunyu.us.kg/memp.json"
 
 let request=new XMLHttpRequest();
 request.open("GET",requestJson);
